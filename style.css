@@ -1,0 +1,467 @@
+* {
+    font-family: 'Varela Round';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.yellowSpan {
+    color: rgb(230, 201, 40);
+}
+
+
+/* The Navbar and links over the website */
+
+#oaNavbar {
+    background-color: rgb(237, 237, 237);
+    box-shadow: 0px 10px 15px 5px rgba(0, 0, 0, 0.9);
+
+}
+
+.navbarContainer {
+    display: flex;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+
+.navbarContainer>.myName {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 0.3s;
+    color: rgb(7, 7, 7);
+
+}
+
+.navbarContainer>.myName:hover {
+    color: rgb(230, 201, 40);
+    transform: translateX(10px);
+}
+
+.navbarContainer>.navbarImg img {
+    margin: 0px 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+
+.navbar ul li a {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin-left: 15px;
+    color: rgb(7, 7, 7);
+    transition: 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: rgb(230, 201, 40);
+}
+
+/* The Navbar and links over the website */
+/* The Main Page  */
+#oaMain {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.65)), url(pic/dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.containerHead {
+    margin-top: 200px;
+    text-align: center;
+    color: #e8e8e8;
+}
+
+.containerHead h1 {
+    font-size: 3.5em;
+}
+
+.containerHead>.openText p {
+    margin: 50px auto;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7;
+}
+
+.containerHead>.goProjects a {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(215, 165, 66, 255);
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+}
+
+.containerHead>.goProjects a:hover {
+    background-color: rgba(210, 160, 20, 255);
+    padding: 25px 55px;
+
+}
+
+.containerHead>.goProjects a {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* The Main Page  */
+/* SIDE BAR */
+.sideBar {
+    width: 70px;
+    margin: 250px -10px;
+}
+
+.sideBar>.socialMedia {
+    background-color: rgb(221, 221, 221);
+    padding: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.sideBar>.socialMedia img {
+    width: 35px;
+    margin: 15px 10px;
+}
+
+.sideBar>.socialMedia>.github,
+.linkedin,
+.youtube,
+.instagram {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.4s;
+}
+
+.sideBar>.socialMedia>.github:hover,
+.linkedin:hover,
+.youtube:hover,
+.instagram:hover {
+    background: rgba(215, 165, 66, 255);
+
+
+}
+
+/* SIDE BAR */
+/* About Me Page  */
+#oaAbout {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgba(0, 0, 0, 0.15), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.65)), url(pic/dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+
+.aboutMeHead {
+    margin-top: 150px;
+    color: #e8e8e8;
+}
+
+.aboutMeHead h1 {
+    margin-bottom: 50px;
+}
+
+
+
+.aboutMeHead p {
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.contactUs {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(215, 165, 66, 255);
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.9);
+    transition: 0.3s;
+
+}
+
+.contactUs>a {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.contactUs:hover {
+    background-color: rgba(210, 160, 20, 255);
+    padding: 23px 53px;
+}
+
+/* My Pic */
+.myPic {
+    margin-top: 150px;
+    height: 70vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55)), url(pic/oa.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* My Pic */
+.aboutMeMain {
+    text-align: center;
+    margin-top: 150px;
+    color: #e8e8e8;
+}
+
+.aboutMeMain h1 {
+    margin-bottom: 50px;
+
+}
+
+.aboutMeMain h4 {
+    color: rgba(215, 165, 66, 255);
+    font-weight: bold;
+
+}
+
+.aboutMeMain>.skills {
+    margin: 10px;
+}
+
+.aboutMeMain button {
+    height: 50px;
+    margin: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+}
+
+.aboutMeMain button:hover {
+    opacity: 0.8;
+}
+
+.aboutMeMain p {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+/* About Me Page  */
+/* Projects Page  */
+#oaProjects {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgba(0, 0, 0, 0.15), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.15)), url(pic/dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.projectsHead {
+    color: #e8e8e8;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 10px;
+
+}
+
+
+.project1,
+.project2,
+.project3,
+.project {
+    width: 450px;
+    height: 350px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+@media (max-width: 992px) {
+
+    .project1,
+    .project2,
+    .project3,
+    .project {
+        width: 330px;
+        height: 350px;
+    }
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project:hover {
+    box-shadow: 0px 0px 5px 1px rgba(249, 249, 249, 0.7);
+    opacity: 0.7;
+    transform: translateY(-20px);
+    transform: scale(1.1);
+}
+
+
+.project1 {
+    background-image: url(pic/homeweb.png);
+}
+
+.project2 {
+    background-image: url(pic/pizzaweb.png);
+    background-position: 90%;
+}
+
+.project3 {
+    background-image: url(pic/mainweb.png);
+
+}
+
+.project {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6), rgb(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(pic/workinp.jpg);
+}
+
+.projectText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    transition: 0.5s;
+    border-radius: 50px;
+    opacity: 0;
+}
+
+.projectText h3 {
+    font-size: 1.8em;
+    font-weight: 900;
+    color: rgb(42, 94, 125);
+}
+
+.projectText p {
+    line-height: 1.4;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #e8e8e8;
+    padding: 10px;
+}
+
+.projectText:hover {
+    opacity: 1;
+}
+
+.goVisit {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(42, 94, 125);
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.goVisit:hover {
+    background-color: rgb(64, 64, 64);
+    transform: scale(1.2);
+}
+
+/* Projects Page  */
+/* Contact Page  */
+#oaContact {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.65), rgba(0, 0, 0, 0.15), rgb(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(pic/dark.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.contactHead>.contactMe {
+    margin: 50px auto;
+    height: 550px;
+    width: 400px;
+    color: rgb(9, 9, 9);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.1), rgba(0, 0, 0, 0.55)), url(pic/parquet.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 5px 10px 10px 3px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+    .contactHead>.contactMe {
+        width: 350px;
+    }
+}
+
+form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+label {
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dadada;
+    font-size: 16px;
+    width: 80%;
+    box-shadow: 0px 0px 10px -3px rgba(0, 0, 0, 0.8);
+}
+
+#message {
+    height: 80px;
+    resize: none;
+}
+
+.contactSend {
+    padding: 10px 40px;
+    color: #2c2c2c;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(215, 165, 66, 255);
+    box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.contactSend:hover {
+    background-color: rgba(210, 160, 20, 255);
+    padding: 13px 43px;
+}
+
+/* Contact Page  */
+
+.copyRights {
+    color: rgb(150, 150, 150);
+    font-size: 1em;
+    text-decoration: none;
+}
